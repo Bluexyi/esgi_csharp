@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-public class kebab {
+public class Kebab {
     private ArrayList viande;
     private ArrayList legume;
     private ArrayList poisson;
     private ArrayList sauce;
     private ArrayList fromage;
 
-    public kebab(ArrayList viande, ArrayList legume, ArrayList poisson, ArrayList sauce, ArrayList fromage) {
+    public Kebab(ArrayList viande, ArrayList legume, ArrayList poisson, ArrayList sauce, ArrayList fromage) {
         this.viande = viande;
         this.legume = legume;
         this.poisson = poisson;
@@ -28,6 +28,10 @@ public class kebab {
         }
         return false;
     }
+
+
+
+
 
 
 
